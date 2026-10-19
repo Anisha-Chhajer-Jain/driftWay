@@ -17,9 +17,19 @@ export default function NotFound() {
           The page you requested could not be found. The URL may have changed or the slug might be invalid.
         </p>
 
-        <Link href="/docs" style={{ color: '#2563eb', textDecoration: 'none', fontWeight: 600, fontSize: 14 }}>
-          Back to Documentation
-        </Link>
+        <div style={{ display: 'flex', gap: 14, alignItems: 'center', marginBottom: 16 }}>
+          <Link href="/docs" style={{ color: '#2563eb', textDecoration: 'none', fontWeight: 600, fontSize: 14 }}>
+            Back to Documentation
+          </Link>
+          <span style={{ color: '#9ca3af' }}>|</span>
+          <Link href="/" style={{ color: '#4b5563', textDecoration: 'none', fontWeight: 600, fontSize: 14 }}>
+            Home Page
+          </Link>
+        </div>
+
+        <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 6, padding: '10px 14px', fontSize: 13, color: '#475569', marginBottom: 20 }}>
+          Tip: Check the URL for typos, or browse the suggested pages below to find what you are looking for.
+        </div>
 
         {/* Quick search box */}
         <div className="lookup-card">
