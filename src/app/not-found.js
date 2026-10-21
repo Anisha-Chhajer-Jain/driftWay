@@ -40,7 +40,7 @@ export default function NotFound() {
           <div className="lookup-input-row">
             <input
               type="text"
-              defaultValue="/docs/routing"
+              placeholder="Search docs or path..."
               className="lookup-input"
             />
             <button className="lookup-btn">Search</button>
