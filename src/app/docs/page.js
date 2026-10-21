@@ -59,7 +59,7 @@ export default function DocsOverviewPage() {
           </div>
           <pre className="code-pre">
             <code>
-{`$ npx orbit-cli create my-app --template standard
+{`$ npx driftway create my-app
 $ cd my-app && npm run dev`}
             </code>
           </pre>
