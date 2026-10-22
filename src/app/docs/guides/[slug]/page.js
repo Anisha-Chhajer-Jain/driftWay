@@ -20,7 +20,7 @@ export default async function GuideDetailPage({ params }) {
     <div className="docs-shell">
       <Sidebar currentSlug="routing" />
 
-      <main className="docs-main-content" style={{ maxWidth: 820 }}>
+      <main className="docs-main-content">
         {/* Breadcrumb path */}
         <div className="breadcrumbs">{guide.category}</div>
 
